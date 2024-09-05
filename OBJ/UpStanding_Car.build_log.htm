@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=SDA0P-MAWG4-DYRV3-A2NTS-4KUDW-SGB2M
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+C:\Users\1\Desktop\STM32平衡小车（370电机）\USER\UpStanding_Car.uvprojx
+Project File Date:  08/26/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil\ARM\ARMCC\Bin'
+Build target 'UpStanding_Car'
+compiling 2m.c...
+..\HAREWARE\2m.c(72): warning:  #223-D: function "delay_s" declared implicitly
+     	delay_s(5);
+..\HAREWARE\2m.c(75): warning:  #1-D: last line of file ends without a newline
+  	
+..\HAREWARE\2m.c: 2 warnings, 0 errors
+compiling main.c...
+linking...
+..\OBJ\UpStanding_Car.axf: Error: L6200E: Symbol Med_Angle multiply defined (by 2m.o and control.o).
+..\OBJ\UpStanding_Car.axf: Error: L6200E: Symbol Target_Speed multiply defined (by 2m.o and control.o).
+..\OBJ\UpStanding_Car.axf: Error: L6200E: Symbol Turn_Speed multiply defined (by 2m.o and control.o).
+..\OBJ\UpStanding_Car.axf: Error: L6200E: Symbol Vertical_Kp multiply defined (by 2m.o and control.o).
+..\OBJ\UpStanding_Car.axf: Error: L6200E: Symbol Vertical_Kd multiply defined (by 2m.o and control.o).
+..\OBJ\UpStanding_Car.axf: Error: L6200E: Symbol Velocity_Kp multiply defined (by 2m.o and control.o).
+..\OBJ\UpStanding_Car.axf: Error: L6200E: Symbol Velocity_Ki multiply defined (by 2m.o and control.o).
+..\OBJ\UpStanding_Car.axf: Error: L6200E: Symbol Turn_Kd multiply defined (by 2m.o and control.o).
+..\OBJ\UpStanding_Car.axf: Error: L6200E: Symbol Turn_Kp multiply defined (by 2m.o and control.o).
+..\OBJ\UpStanding_Car.axf: Error: L6200E: Symbol Vertical_out multiply defined (by 2m.o and control.o).
+..\OBJ\UpStanding_Car.axf: Error: L6200E: Symbol Velocity_out multiply defined (by 2m.o and control.o).
+..\OBJ\UpStanding_Car.axf: Error: L6200E: Symbol Turn_out multiply defined (by 2m.o and control.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 12 error messages.
+"..\OBJ\UpStanding_Car.axf" - 12 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_UpStanding_Car
+  D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
